@@ -10,7 +10,11 @@ namespace Ch5_P1_SimpleClassExample
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(" Lecture 4 - Project 1 - OOP with C# ");
 
+
+
+            Console.ReadLine();
         }
     }
 }
