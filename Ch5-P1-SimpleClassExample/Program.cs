@@ -37,8 +37,18 @@ namespace Ch5_P1_SimpleClassExample
 
             #region The Default Constructor Revisited
 
-            Motorcycle mc = new Motorcycle(3);
-            mc.PopAWheely();
+            //Motorcycle mc = new Motorcycle(3);
+            //mc.PopAWheely();
+
+            #endregion
+
+            #region The Role of the this Keyword
+
+            // Make a Motorcycle with a rider named Tiny?
+            Motorcycle c = new Motorcycle(5);
+            c.SetDriverName("Machi");
+            c.PopAWheely();
+            Console.WriteLine("Rider name is {0}", c.driverName); // Prints an empty name value!
 
             #endregion
 
